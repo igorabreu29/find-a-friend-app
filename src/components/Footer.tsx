@@ -1,4 +1,6 @@
 import { Search } from 'lucide-react'
+import { SelectCity } from './SelectCity'
+import { SelectState } from './SelectState'
 
 export function Footer() {
   return (
@@ -9,8 +11,8 @@ export function Footer() {
 
       <form className="flex items-center justify-center gap-4">
         <span>Busque um amigo: </span>
-        <div className="rounded-lg border px-4 py-3 text-lg">PE</div>
-        <div className="rounded-lg bg-black/10 px-20 py-3 text-lg">Recife</div>
+        <SelectState />
+        <SelectCity />
         <button
           type="button"
           aria-label="button"
