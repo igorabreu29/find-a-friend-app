@@ -1,6 +1,6 @@
 import { Search } from 'lucide-react'
-import { SelectCity } from './SelectCity'
-import { SelectState } from './SelectState'
+import { SelectCity } from './Select/SelectCity'
+import { SelectState } from './Select/SelectState'
 
 export function Footer() {
   return (
