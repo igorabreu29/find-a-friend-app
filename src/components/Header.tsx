@@ -1,9 +1,10 @@
-import { Logo } from './images/Logo'
+import Image from 'next/image'
+import Logo from '../assets/logo.svg'
 
 export function Header() {
   return (
     <header className="flex w-full items-center gap-2">
-      <Logo />
+      <Image src={Logo} alt="" />
       <span className="text-xl font-medium">FindAFriend</span>
     </header>
   )
